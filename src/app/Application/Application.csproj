@@ -23,7 +23,6 @@
     <PackageReference Include="GarageGroup.Infra.Endpoint.AspNetCore" Version="0.22.0" />
     <PackageReference Include="GarageGroup.Infra.Handler.AspNetCore" Version="0.1.1" />
     <PackageReference Include="GarageGroup.Infra.HealthCheck.Handler" Version="0.3.0" />
-    <PackageReference Include="GarageGroup.Infra.Http.Api" Version="0.3.0" />
     <PackageReference Include="GarageGroup.Infra.Http.Polly" Version="2.0.1" />
     <PackageReference Include="GarageGroup.Infra.SecurityToken.Validation.Middleware.Jwt" Version="3.0.0" />
     <PackageReference Include="GarageGroup.Infra.Sql.Api" Version="3.0.0" />
