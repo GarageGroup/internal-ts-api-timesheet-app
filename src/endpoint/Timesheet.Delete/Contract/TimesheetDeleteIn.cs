@@ -8,7 +8,7 @@ using static TimesheetDeleteMetadata;
 public readonly record struct TimesheetDeleteIn
 {
     public TimesheetDeleteIn(
-        [JsonBodyIn, SwaggerDescription(In.IdDescription), StringExample(In.IdExample)] Guid timesheetId)
+        [RouteIn, SwaggerDescription(In.IdDescription), StringExample(In.IdExample)] Guid timesheetId)
         =>
         TimesheetId = timesheetId;
 

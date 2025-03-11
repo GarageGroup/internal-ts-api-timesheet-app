@@ -9,8 +9,8 @@ public sealed record class TimesheetSetGetIn
 {
     public TimesheetSetGetIn(
         [ClaimIn] Guid systemUserId,
-        [JsonBodyIn, SwaggerDescription(In.DateFromDescription)] DateOnly dateFrom,
-        [JsonBodyIn, SwaggerDescription(In.DateToDescription)] DateOnly dateTo)
+        [QueryIn, SwaggerDescription(In.DateFromDescription)] DateOnly dateFrom,
+        [QueryIn, SwaggerDescription(In.DateToDescription)] DateOnly dateTo)
     {
         SystemUserId = systemUserId;
         DateFrom = dateFrom;
