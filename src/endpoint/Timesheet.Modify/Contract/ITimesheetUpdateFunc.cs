@@ -7,7 +7,7 @@ namespace GarageGroup.Internal.Timesheet;
 
 using static TimesheetModifyMetadata;
 
-[Endpoint(EndpointMethod.Post, Func.RouteUpdate, Summary = Func.SummaryUpdate, Description = Func.DescriptionUpdate)]
+[Endpoint(EndpointMethod.Patch, Func.RouteUpdate, Summary = Func.SummaryUpdate, Description = Func.DescriptionUpdate)]
 [EndpointTag(Func.Tag)]
 public interface ITimesheetUpdateFunc
 {

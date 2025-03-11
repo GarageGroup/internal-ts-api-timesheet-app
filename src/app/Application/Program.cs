@@ -11,7 +11,6 @@ static class Program
         .UseHealthCheck()
         .UseSwagger()
         .UseStandardSwaggerUI()
-        .UseIsSuccessMiddleware()
         .UseJwtReader()
         .UseTimesheetSetGetEndpoint()
         .UseTimesheetCreateEndpoint()

@@ -6,7 +6,7 @@ internal static class TimesheetDeleteMetadata
     {
         public const string Tag = "Timesheet";
 
-        public const string Route = "/deleteTimesheet";
+        public const string Route = "/timesheet/{timesheetId}";
 
         public const string Summary
             =

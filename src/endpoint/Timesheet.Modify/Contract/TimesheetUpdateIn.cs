@@ -8,7 +8,7 @@ using static TimesheetModifyMetadata;
 public sealed record class TimesheetUpdateIn
 {
     public TimesheetUpdateIn(
-        [JsonBodyIn, SwaggerDescription(In.TimesheetIdDescription), StringExample(In.TimesheetIdExample)] Guid timesheetId,
+        [RouteIn, SwaggerDescription(In.TimesheetIdDescription), StringExample(In.TimesheetIdExample)] Guid timesheetId,
         [JsonBodyIn, SwaggerDescription(In.DateDescription)] DateOnly? date,
         [JsonBodyIn, SwaggerDescription(In.ProjectDescription)] TimesheetProject? project,
         [JsonBodyIn, SwaggerDescription(In.DurationDescription), IntegerExample(In.DurationExample)] decimal? duration,
