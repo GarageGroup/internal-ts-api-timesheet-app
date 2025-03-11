@@ -8,41 +8,28 @@
     <InvariantGlobalization>false</InvariantGlobalization>
     <NoWarn>$(NoWarn);IDE0130;CA1859</NoWarn>
     <RootNamespace>GarageGroup.Internal.Timesheet</RootNamespace>
-    <AssemblyName>GarageGroup.Internal.Timesheet.Service.Application</AssemblyName>
+    <AssemblyName>GarageGroup.Internal.Timesheet.Api.Timesheet.Application</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\service\BotApi\Api\Api.csproj" />
-    <ProjectReference Include="..\..\endpoint\Notification.Subscribe\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\Profile.Get\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\Profile.Update\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\Project.GetLastSet\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\Project.GetSet\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\Project.SearchSet\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\Subscription.GetSet\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\Tag.GetSet\Endpoint\Endpoint.csproj" />
     <ProjectReference Include="..\..\endpoint\Timesheet.Delete\Endpoint\Endpoint.csproj" />
     <ProjectReference Include="..\..\endpoint\Timesheet.GetSet\Endpoint\Endpoint.csproj" />
     <ProjectReference Include="..\..\endpoint\Timesheet.Modify\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\User.SignIn\Endpoint\Endpoint.csproj" />
-    <ProjectReference Include="..\..\endpoint\User.SignOut\Endpoint\Endpoint.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="GarageGroup.Infra.AspNetCore.AzureApplication" Version="4.2.0" />
     <PackageReference Include="GarageGroup.Infra.Dataverse.Api" Version="3.18.0" />
-    <PackageReference Include="GarageGroup.Infra.Endpoint.AspNetCore" Version="0.21.1" />
-    <PackageReference Include="GarageGroup.Infra.Handler.AspNetCore" Version="0.1.0" />
+    <PackageReference Include="GarageGroup.Infra.Endpoint.AspNetCore" Version="0.22.0" />
+    <PackageReference Include="GarageGroup.Infra.Handler.AspNetCore" Version="0.1.1" />
     <PackageReference Include="GarageGroup.Infra.HealthCheck.Handler" Version="0.3.0" />
-    <PackageReference Include="GarageGroup.Infra.Http.Api" Version="0.2.1" />
-    <PackageReference Include="GarageGroup.Infra.Http.Polly" Version="2.0.0" />
+    <PackageReference Include="GarageGroup.Infra.Http.Api" Version="0.3.0" />
+    <PackageReference Include="GarageGroup.Infra.Http.Polly" Version="2.0.1" />
     <PackageReference Include="GarageGroup.Infra.SecurityToken.Validation.Middleware.Jwt" Version="3.0.0" />
-    <PackageReference Include="GarageGroup.Infra.Sql.Api" Version="2.7.0" />
-    <PackageReference Include="GarageGroup.Infra.Sql.Api.Provider.Dataverse" Version="0.2.0" />
+    <PackageReference Include="GarageGroup.Infra.Sql.Api" Version="3.0.0" />
+    <PackageReference Include="GarageGroup.Infra.Sql.Api.Provider.Dataverse" Version="0.3.0" />
     <PackageReference Include="GarageGroup.Infra.Swagger.Builder" Version="3.6.0" />
     <PackageReference Include="GarageGroup.Infra.Swagger.UI" Version="2.7.0" />
-    <PackageReference Include="GarageGroup.Infra.Telegram.Bot.Api" Version="0.2.0" />
-    <PackageReference Include="System.Formats.Asn1" Version="8.0.1" />
   </ItemGroup>
 
 </Project>

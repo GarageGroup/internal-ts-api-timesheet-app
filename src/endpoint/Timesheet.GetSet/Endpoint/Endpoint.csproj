@@ -18,10 +18,10 @@
 
   <ItemGroup>
     <PackageReference Include="EarlyFuncPack.Core.AsyncPipeline" Version="0.3.0" />
-    <PackageReference Include="GarageGroup.Infra.Sql.Api.Abstractions.QueryEntitySet" Version="2.3.0" />
-    <PackageReference Include="GarageGroup.Infra.Sql.Api.Core.DbRequest" Version="2.5.0" />
+    <PackageReference Include="GarageGroup.Infra.Sql.Api.Abstractions.QueryEntitySet" Version="3.0.0" />
+    <PackageReference Include="GarageGroup.Infra.Sql.Api.Core.DbRequest" Version="3.0.0" />
     <PackageReference Include="PrimeFuncPack.Dependency.Core" Version="2.1.0" />
-    <PackageReference Include="PrimeFuncPack.Primitives.Pipeline" Version="2.0.3" />
+    <PackageReference Include="PrimeFuncPack.Primitives.Pipeline" Version="3.0.0" />
   </ItemGroup>
 
 </Project>
