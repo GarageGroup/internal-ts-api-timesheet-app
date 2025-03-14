@@ -12,9 +12,9 @@ static class Program
         .UseSwagger()
         .UseStandardSwaggerUI()
         .UseJwtReader()
-        .UseTimesheetSetGetEndpoint()
         .UseTimesheetCreateEndpoint()
-        .UseTimesheetDeleteEndpoint()
         .UseTimesheetUpdateEndpoint()
+        .UseTimesheetDeleteEndpoint()
+        .UseTimesheetSetGetEndpoint()
         .RunAsync();
 }

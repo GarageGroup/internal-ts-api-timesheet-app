@@ -6,7 +6,7 @@ internal static class TimesheetSetGetMetadata
     {
         public const string Tag = "Timesheet";
 
-        public const string Route = "/timesheets";
+        public const string Route = "/";
 
         public const string Summary
             =

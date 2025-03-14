@@ -6,7 +6,7 @@ internal static class TimesheetModifyMetadata
     {
         public const string Tag = "Timesheet";
 
-        public const string RouteCreate = "/timesheet";
+        public const string RouteCreate = "/";
 
         public const string SummaryCreate
             =
@@ -16,7 +16,7 @@ internal static class TimesheetModifyMetadata
             =
             "Creates a new timesheet entry.";
 
-        public const string RouteUpdate = "/timesheet/{timesheetId}";
+        public const string RouteUpdate = "/{timesheetId}";
 
         public const string SummaryUpdate
             =
