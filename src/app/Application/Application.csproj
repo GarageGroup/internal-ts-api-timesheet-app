@@ -27,8 +27,8 @@
     <PackageReference Include="GarageGroup.Infra.SecurityToken.Validation.Middleware.Jwt" Version="3.0.0" />
     <PackageReference Include="GarageGroup.Infra.Sql.Api" Version="3.0.0" />
     <PackageReference Include="GarageGroup.Infra.Sql.Api.Provider.Dataverse" Version="0.3.0" />
-    <PackageReference Include="GarageGroup.Infra.Swagger.Builder" Version="3.7.0" />
-    <PackageReference Include="GarageGroup.Infra.Swagger.UI" Version="2.8.0" />
+    <PackageReference Include="GarageGroup.Infra.Swagger.Builder" Version="3.8.0" />
+    <PackageReference Include="GarageGroup.Infra.Swagger.UI" Version="2.9.0" />
   </ItemGroup>
 
 </Project>
